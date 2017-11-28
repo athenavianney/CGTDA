@@ -12,7 +12,7 @@
 	</head>
 	<body>
 
-<!-- Nav bar -->
+	<!-- Nav bar -->
 	
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
 	  <!-- Brand -->
@@ -21,16 +21,16 @@
 	  <!-- Links -->
 	  <ul class="navbar-nav ml-auto">
 	    <li class="nav-item">
-	      <a class="nav-link" href="../index.html">Inicio</a>
+	      <a class="nav-link" href="index.php">Inicio</a>
 	    </li>
 
 	   <!-- Dropdown Algoritmos -->
 	    <li class="nav-item dropdown">
-	      <a class="nav-link dropdown-toggle" href="algoritmos.html" id="navbardrop" data-toggle="dropdown">
+	      <a class="nav-link dropdown-toggle" href="algoritmos.php" id="navbardrop" data-toggle="dropdown">
 	        Algoritmos
 	      </a>
 	      <div class="dropdown-menu">
-	        <a class="dropdown-item" href="algoritmos.html">Todos</a>
+	        <a class="dropdown-item" href="algoritmos.php">Todos</a>
 	        <a class="dropdown-item" href="#">B</a>
 	        <a class="dropdown-item" href="#">C</a>
 	      </div>
@@ -38,18 +38,18 @@
 
 	    <!-- Dropdown Articulos-->
 	    <li class="nav-item dropdown">
-	      <a class="nav-link dropdown-toggle" href="articulos.html" id="navbardrop" data-toggle="dropdown">
+	      <a class="nav-link dropdown-toggle" href="articulos.php" id="navbardrop" data-toggle="dropdown">
 	        Artículos
 	      </a>
 	      <div class="dropdown-menu">
-	        <a class="dropdown-item" href="articulos.html">Todos</a>
+	        <a class="dropdown-item" href="articulos.php">Todos</a>
 	        <a class="dropdown-item" href="#">B</a>
 	        <a class="dropdown-item" href="#">C</a>
 	      </div>
 	    </li>
 
 	    <li class="nav-item">
-	      <a class="nav-link" href="equipo.html">Equipo</a>
+	      <a class="nav-link" href="equipo.php">Equipo</a>
 	    </li>
 	  </ul>
 	</nav>
@@ -60,20 +60,21 @@
 	<div class="container">
     <div class="row">
         <div class="col-md-7">
-        	<h4>Título</h4>
+        	<h4>Algoritmo</h4>
             <p>Breve introducción sobre lo que hablará el algoritmo, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
         </div>
         <div class="col-md-2">
-        	<p class="font-weight-normal">Autor/Autores</p>
+        	<p class="font-weight-normal">Autor/Autores:</p>
   			<p class="font-weight-light">Nombres</p>  			
         </div>
         <div class="col-md-2">
-  			<p class="font-weight-normal">Fecha de publicación</p>
-  			<p class="font-weight-light">00/00/0000</p>
+  			<p class="font-weight-normal">Lenguaje:</p>
+  			<p class="font-weight-light">C++</p>
+  			
         </div>
         <div class="col-md-0">
         	<p class="font-weight-normal">Descargar</p>
-  			<a href="../index.html"> <i class="fa fa-download" aria-hidden="true"></i>
+  			<a href="index.php"> <i class="fa fa-download" aria-hidden="true"></i>
         </div>
     </div>
 </div>
