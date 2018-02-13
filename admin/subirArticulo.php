@@ -81,7 +81,7 @@
                   while ($row = $result->fetch_assoc()) { 
                     $nombre = $row[nombre]; 
                     $id_cat = $row[id];
-                    echo "<option value='.$id_cat.'>$id_cat, $nombre</option>";
+                    echo "<option value='.$id_cat.'>$nombre</option>";
                   }
                 ?>
               </select>

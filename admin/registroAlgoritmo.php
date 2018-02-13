@@ -11,7 +11,7 @@
     VALUES ('$titulo', '$autores', '$lenguaje', '$introduccion', '$id_categoria')";
     if($conn->query($sql)===TRUE){
         echo "<meta http-equiv='refresh' content='2;url= menuAdmin.php#' />";
-        echo"Algoritmo subido";
+        echo"Algoritmo registrado";
     }else{
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

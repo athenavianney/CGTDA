@@ -69,51 +69,23 @@
         <div class="card-header">
             <h3 class="mb-0">Nuevo Usuario</h3>
         </div>
-        <div class="card-body">
-          <!-- Usuario input-->
-          <div class="form-group row">
-            <div class="col-xs-3">
-              <label for="user">Usuario:</label>
-              <input class="form-control" type="text" name="user">
-            </div>
-          </div>
-          <!-- Password input-->
-          <div class="form-group row">
-            <div class="col-xs-2">
-              <label for="password">Contraseña:</label>
-              <input class="form-control" type="password" name="password">
-            </div>
-          </div>
-          <!-- Nombre input-->
-          <div class="form-group row">
-            <div class="col-xs-3">
-              <label for="user">Nombre Completo:</label>
-              <input class="form-control" type="text" name="nombre">
-            </div>
-          </div>
-          <!-- Estudio input-->
-          <div class="form-group row">
-            <div class="col-xs-3">
-              <label for="user">Estudios:</label>
-              <input class="form-control" type="text" name="estudio">
-            </div>
-          </div>
-          <!-- Correo input-->
-          <div class="form-group row">
-            <div class="col-xs-3">
-              <label for="user">Correo electrónico:</label>
-              <input class="form-control" type="text" name="correo">
-            </div>
-          </div>
-          <!-- Info input-->
-          <div class="form-group row">
-            <div class="col-xs-3">
-              <label for="user">Información extra:</label>
-              <input class="form-control" type="text" name="info">
-            </div>
+        <div class="card-body">    
+          <div class="form-group">
+            <label for= "user">Usuario:</label>
+            <input class="form-control" type="text" name="user">
+            <label for="password">Contraseña:</label>
+            <input class="form-control" type="password" name="password">
+            <label for="nombre">Nombre Completo:</label>
+            <input class="form-control" type="text" name="nombre">
+            <label for="estudio">Estudios:</label>
+            <input class="form-control" type="text" name="estudio">
+            <label for="correo">Correo Electrónico:</label>
+            <input class="form-control" type="text" name="correo">
+            <label for="info">Información extra:</label>
+            <textarea class="form-control" type="text" rows="4" name="info"></textarea>     
           </div>
           <!-- Submit-->
-          <div class="form-group row">
+          <div class="form-group">
             <input type="submit" value="Registrar"/>
           </div>
         </div>

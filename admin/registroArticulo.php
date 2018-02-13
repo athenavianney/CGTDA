@@ -11,7 +11,7 @@
     VALUES ('$titulo', '$colaboradores', '$fecha', '$introduccion', '$id_categoria')";
     if($conn->query($sql)===TRUE){
         echo "<meta http-equiv='refresh' content='2;url= menuAdmin.php#' />";
-        echo"Artículo subido";
+        echo"Artículo registrado";
     }else{
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

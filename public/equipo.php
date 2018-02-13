@@ -66,7 +66,6 @@
 
     <br>
     <div class="container">
-      <h3 class='font-weight-normal'>Equipo de trabajo </h3>
       <div class="row">
         <?php
           $path = "SELECT * FROM equipo";
